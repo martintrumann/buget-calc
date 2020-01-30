@@ -16,11 +16,11 @@
     height: 500px;
     margin: 0 auto; 
     background-color: rgba(224, 223, 223, 1);
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
   }
 
-.input {
+.inputs {
     position: center;
   }
 .input1 {
@@ -49,15 +49,24 @@
     padding: ;
     margin: 0 -25px;
 }
-.input5 {
-    width: 120px;
-    height: 40px;
-    padding: ;
-    margin: 0 -93px;
+
+
+.stats {
+   position: relative;
+  flex-direction: row;
 }
-.input6 {
-    width: 120px;
-    height: 40px;
-    padding: ;
-    margin: 0 205px;
+
+.tulud {
+  display: flex;
+  width: 201px;
+  height: 64px;
+  background-color: rgba(255, 199, 147, 1);
+  margin: ;
+}
+.kulud {
+  display: flex;
+  width: 201px;
+  height: 64px;
+  background-color: rgba(255, 199, 147, 1);
+  margin: ;
 }
