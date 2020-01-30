@@ -6,6 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
+    <script>
+        function tulu() {
+          var sum = document.getElementById("summa").value;
+          var selgitus = document.getElementById("sisestus").value;
+          var para = document.createElement("p");
+          para.innerText = sum;
+          var tulud = document.getElementById("tulud");
+          tulud.appendChild(para);
+
+        }
+        function kulu() {
+            var sum = document.getElementById("summa").value;
+            var selgitus = document.getElementById("sisestus").value;
+            var para = document.createElement("p");
+            para.innerText = sum;            
+            var kulud = document.getElementById("kulud");
+            kulud.appendChild(para);
+        }
+      </script>
 </head>
 <body>
     <div class="main">
@@ -14,8 +34,8 @@
             <br><br>
             <input type="text" id="sisestus" name="sisestus" class="input2">
             <br><br>
-            <button type="text" id="+" name="+" class="input3">+
-            <button type="text" id="-" name="-" class="input4">-
+            <button onclick="tulu(); return false" type="text" id="+" name="+" class="input3">+
+            <button onclick="kulu(); return false" type="text" id="-" name="-" class="input4">-
         </form>
     </div>
     <div class="main2">
