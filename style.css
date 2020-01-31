@@ -7,7 +7,7 @@ body {
     max-width: 500px;
     height: 200px;
     margin: 0 auto; 
-    background-color: rgb(112, 152, 170);
+    background-color: rgb(128, 45, 153);
     justify-content: space-between;
     padding: 20px;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
     /*width: 500px;*/
     height: 500px;
     margin: 0 auto; 
-    background-color: rgb(115, 170, 194);
+    background-color: rgb(39, 3, 34);
     justify-content: center;
     padding: 20px;
     
@@ -34,6 +34,8 @@ body {
   margin: auto;
   font-size: 1.5rem;
   font-weight: bold;
+  color: rgb(31, 5, 36);
+  
 }
 
 .description_sum {
@@ -46,16 +48,16 @@ body {
   height: 40px;
   justify-content: center;
   /*background-color: rgb(100, 193, 230);*/
-  background-color: rgb(116, 243, 243);
+  background-color: rgb(67, 156, 207);
 }
 .description {
   height: 40px;
-  background-color: rgb(117, 228, 228);
+  background-color: rgb(151, 151, 211);
 }
 
 .sum {
   height: 40px;
-  background-color: #75E4E4;
+  background-color: rgb(151, 151, 211);
 }
 
 .btn_row {
@@ -72,14 +74,14 @@ p {
   height: 30px;
   width: 50px;
   margin: 5px;
-  background-color: rgb(80, 131, 172);
+  background-color: rgb(126, 171, 207);
 
 }
 .minus_btn {
   height: 30px;
   width: 50px;
   margin: 5px;
-  background-color: rgb(116, 211, 195);
+  background-color: rgb(200, 136, 219);
 }
 
 
@@ -91,16 +93,20 @@ p {
 .tulud {
   display: flex;
   width: 201px;
-  background-color: rgba(255, 199, 147, 1);
+  background-color: rgba(220, 254, 255, 0.3);
+  background-blend-mode: soft-light;
   flex-direction: column;
+  color: rgb(151, 151, 211);
+  
   
 }
 .kulud {
   display: flex;
   width: 201px;
-  background-color: rgba(172, 212, 205, 1);
+  background-color: rgb(151, 151, 151, 0.3);
   align-items: center;
   flex-direction: column;
+  color: rgb(151, 151, 211);
 }
 
 h2 {
