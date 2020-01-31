@@ -9,25 +9,32 @@
 
     <script>
         function tulu() {
-          var sum = document.getElementById("sisestus").value;
-          var selgitus = document.getElementById("kirjeldus").value;
-          var para = document.createElement("p");
-          para.innerText = sum;
-          var tulud = document.getElementById("tulud");
-          tulud.appendChild(para);
-          tuludarray.push(parseInt(sum))
-          summa()
-
+            var sum = document.getElementById("sisestus").value;
+            if(sum){
+                var selgitus = document.getElementById("kirjeldus").value;
+                var para = document.createElement("p");
+                para.innerText = sum;
+                para.innerText += "€ ";
+                para.innerText += selgitus;
+                var tulud = document.getElementById("tulud");
+                tulud.appendChild(para);
+                tuludarray.push(parseInt(sum))
+                summa()
+            }
         }
         function kulu() {
-            var sum = document.getElementById("sisestus").value;
-            var selgitus = document.getElementById("kirjeldus").value;
-            var para = document.createElement("p");
-            para.innerText = sum;            
-            var kulud = document.getElementById("kulud");
-            kulud.appendChild(para);
-            kuludarray.push(parseInt(sum))
-            summa()
+           var sum = document.getElementById("sisestus").value;
+            if(sum){
+                var selgitus = document.getElementById("kirjeldus").value;
+                var para = document.createElement("p");
+                para.innerText = sum;
+                para.innerText += "€ ";
+                para.innerText += selgitus;            
+                var kulud = document.getElementById("kulud");
+                kulud.appendChild(para);
+                kuludarray.push(parseInt(sum))
+                summa()
+            }
         }
         function summa() {
             var tulusumma = tuludarray.reduce((a,b) => a+b,0);
@@ -35,6 +42,7 @@
             console.log(tulusumma-kulusumma);
             var kogusumma = document.getElementById("kogusumma");
             kogusumma.innerText = tulusumma-kulusumma
+            kogusumma.innerText += "€";
 
         }
         var tuludarray = []
@@ -46,13 +54,13 @@
         <div>
             <div class="inputs">
                 <p>Summa:</p>
-                <p id="kogusumma">0</p>
+                <p id="kogusumma">0€</p>
                 </div>
                 <!--<input type="text" id="summa" name="summa" class="sum_total" placeholder="summa">-->
             </div>         
             <div class="description_sum">
+                <input type="number" id="sisestus" name="sisestus" class="sum" placeholder="summa">
                 <input type="text" id="kirjeldus" name="kirjeldus" class="description" placeholder="kirjeldus">
-                <input type="text" id="sisestus" name="sisestus" class="sum" placeholder="sisestus">
             </div>
             <div class="btn_row">
                 <button onclick="tulu(); return false" type="text" id="+" name="+" class="add_btn">+</button>
