@@ -9,4 +9,4 @@ Calculator was made by team MTLRS
 
 ## Links
 - [Figma](https://www.figma.com/file/7Cxko7Fq88QKjZIoth0hyR/Untitled?node-id=0%3A1)
-- Zone (TBA)
+- [Zone](martintrumann.itmajakas.ee/buget-calc)
