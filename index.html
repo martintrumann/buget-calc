@@ -29,13 +29,22 @@
 </head>
 <body>
     <div class="main">
-        <form class="inputs">
-            <input type="text" id="summa" name="summa" class="input1">
+        <form>
+            <div class="inputs">
+                <input type="text" id="summa" name="summa" class="sum_total">
+            </div>
+
             <br><br>
-            <input type="text" id="sisestus" name="sisestus" class="input2">
+            <div class="description_sum">
+                <input type="text" id="sisestus" name="sisestus" class="description">
+                <input type="text" id="sisestus" name="sisestus" class="sum">
+            </div>
+            
             <br><br>
-            <button onclick="tulu(); return false" type="text" id="+" name="+" class="input3">+
-            <button onclick="kulu(); return false" type="text" id="-" name="-" class="input4">-
+            <div class="btn_row">
+                <button onclick="tulu(); return false" type="text" id="+" name="+" class="add_btn">+</button>
+                <button onclick="kulu(); return false" type="text" id="-" name="-" class="minus_btn">-</button>
+            </div>    
         </form>
     </div>
     <div class="main2">
