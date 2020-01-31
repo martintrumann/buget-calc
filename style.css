@@ -1,51 +1,101 @@
-
+body{
+  background-image: url('https://st2.depositphotos.com/3246347/6806/i/950/depositphotos_68065665-stock-photo-money-stacks-of-euros.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .main {
-    display: flex;
-    width: 500px;
-    height: 700px;
-    margin: 0 auto; 
-    background-color: rgba(177, 176, 174, 1);
-    justify-content: center;
-    padding: 20px;
-  }
+  display: flex;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto; 
+  background-color: rgb(36, 207, 122);
+  justify-content: center;
+  padding: 20px;
+  border-radius: 30px;
+}
 
-.input {
-    position: center;
-  }
-.input1 {
-    width: 250px;
-    height: 40px;
-    padding: ;
-    margin: 0 -40px;
-  }
-.input2 {
-    height: 30px;
-    width: ;
-    padding: ;
-    margin: ;
+.main2 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto; 
+  background-color: rgb(79, 153, 223);
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 30px;
 }
-.input3 {
-    height: 30px;
-    width: 50px;
-    padding: ;
-    margin: 0 30px;
+
+.inputs {
+display: flex;
+flex-flow: row;
+justify-content: center;
 }
-.input4 {
-    height: 30px;
-    width: 50px;
-    padding: ;
-    margin: 0 -25px;
+
+.description_sum {
+display: flex;
+flex-flow: row;
 }
-.input5 {
-    width: 120px;
-    height: 40px;
-    padding: ;
-    margin: 0 -93px;
+.sum_total {
+width: 200px;
+height: 40px;
+justify-content: center;
+/*background-color: rgb(100, 193, 230);*/
+background-color: #75E4E4;
 }
-.input6 {
-    width: 120px;
-    height: 40px;
-    padding: ;
-    margin: 0 205px;
+.description {
+height: 40px;
+background-color: rgb(117, 228, 228);
+}
+
+.sum {
+height: 40px;
+background-color: #75E4E4;
+}
+
+.btn_row {
+display: flex;
+flex-flow: row;
+justify-content: center;
+}
+
+.add_btn {
+height: 30px;
+width: 50px;
+margin: 5px;
+background-color: rgba(255, 199, 147, 1);
+
+}
+.minus_btn {
+height: 30px;
+width: 50px;
+margin: 5px;
+background-color: rgba(172, 212, 205, 1);
+}
+
+
+.stats {
+ position: relative;
+ display: flex; 
+}
+
+.tulud {
+display: flex;
+width: 201px;
+background-color: rgba(255, 199, 147, 1);
+flex-direction: column;
+
+}
+.kulud {
+display: flex;
+width: 201px;
+background-color: rgba(172, 212, 205, 1);
+align-items: center;
+flex-direction: column;
+}
+
+h2 {
+text-align: center;
+
 }
