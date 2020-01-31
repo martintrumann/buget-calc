@@ -11,8 +11,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     flex-direction: column;
-    align-items: center;
-    
+    /*align-items: center;*/
   }
 
   .main2 {
@@ -28,13 +27,18 @@ body {
 
 .inputs {
   display: flex;
-  flex-flow: row;
-  justify-content: center;
+  /*flex-flow: row;*/
+  justify-content: space-between;
+  max-width: 200px;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .description_sum {
   display: flex;
   flex-flow: row;
+  justify-content: center;
 }
 .sum_total {
   max-width: 200px;
@@ -56,6 +60,10 @@ body {
 .btn_row {
   display: flex;
   flex-flow: row;
+  justify-content: center;
+}
+p {
+  text-align: center;
   justify-content: center;
 }
 
