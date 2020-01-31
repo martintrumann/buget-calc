@@ -7,7 +7,7 @@ body {
     max-width: 500px;
     height: 200px;
     margin: 0 auto; 
-    background-color: rgb(36, 153, 207);
+    background-color: rgb(112, 152, 170);
     justify-content: space-between;
     padding: 20px;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
     /*width: 500px;*/
     height: 500px;
     margin: 0 auto; 
-    background-color: rgb(79, 153, 223);
+    background-color: rgb(115, 170, 194);
     justify-content: center;
     padding: 20px;
     
@@ -46,7 +46,7 @@ body {
   height: 40px;
   justify-content: center;
   /*background-color: rgb(100, 193, 230);*/
-  background-color: #75E4E4;
+  background-color: rgb(116, 243, 243);
 }
 .description {
   height: 40px;
@@ -72,14 +72,14 @@ p {
   height: 30px;
   width: 50px;
   margin: 5px;
-  background-color: rgba(255, 199, 147, 1);
+  background-color: rgb(80, 131, 172);
 
 }
 .minus_btn {
   height: 30px;
   width: 50px;
   margin: 5px;
-  background-color: rgba(172, 212, 205, 1);
+  background-color: rgb(116, 211, 195);
 }
 
 
